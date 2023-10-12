@@ -217,6 +217,28 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &902028468 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 101568, guid: d5e0dab3f66b8cd408f2f53e460d27af, type: 3}
+  m_PrefabInstance: {fileID: 2118186788}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &902028469
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 902028468}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 493d9d546f4739d42a212dc928794a35, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dragonEggPrefab: {fileID: 7484624460399312536, guid: 23642570d15c165468013de0d8ec2cea, type: 3}
+  speed: 4
+  timeBetweenEggDrops: 2
+  leftRightDistance: 15
+  chanceDirections: 0.01
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -400,7 +422,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 101568, guid: d5e0dab3f66b8cd408f2f53e460d27af, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 902028469}
   m_SourcePrefab: {fileID: 100100000, guid: d5e0dab3f66b8cd408f2f53e460d27af, type: 3}
 --- !u!1001 &1733625817580305285
 PrefabInstance:
